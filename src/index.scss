@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 20px 40px;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+* {
+  // padding & border add pixels to width of element > we can stop that behaviour with setting box-sizing: border-box so that the width will not change and include padding and border
+  box-sizing: border-box
+}
